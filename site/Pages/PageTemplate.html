@@ -7,6 +7,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Yatra One' rel='stylesheet'>
 		<link rel="stylesheet" href="../style.css">
 		<script src="../main.js"></script>
+		<script src="../back.js"></script>
 		<title>Template</title>
 	</head>
 	<body class="quiz" id="body" style="background-color: rgb(51, 51, 51);">
@@ -26,6 +27,10 @@
 				</article>
 			</main>
 			<section class="quizCheck">
+				<form id="answerForm">
+					<input type="text" name="key" id="keyText">
+					<button></button>
+				</form>
 				<input type="range" name="colorSlider" id="backSlider" oninput="SliderChange(this)" value="51" max="150">
 			</section>
 		</div>

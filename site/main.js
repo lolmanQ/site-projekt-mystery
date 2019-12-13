@@ -3,3 +3,4 @@ function SliderChange(element) {
 	var body = document.getElementById("body");
 	body.style.backgroundColor = "rgb(" + elementValue + "," + elementValue + "," + elementValue +")";
 }
+

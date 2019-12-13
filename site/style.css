@@ -89,10 +89,10 @@ input[type=range] {
 	-webkit-appearance: none;
 	margin: 18px 0;
 	width: 100%;
+	position: absolute;
 }
 
 .page1 input[type=range]{
-	position: absolute;
 	bottom: 10px;
 }
 
@@ -126,6 +126,8 @@ input[type=range]:focus{
 
 .quiz nav{
 	position: absolute;
+	width: 100%;
+	height: 100vh;
 }
 
 .otherPageLink{
@@ -134,9 +136,13 @@ input[type=range]:focus{
 	text-decoration: none;
 }
 
-a#L1{top:100px; left: 20px;}
+a#L1{top:100px; right: 70px;}
 
 a#L2{top: 200px; left: 50px; color: rgb(51, 51, 51);}
+
+a#L3{bottom: 200px; right: 70px;}
+
+a#L4{bottom: 170px; left: 90px;}
 
 /* main quiz */
 
@@ -144,4 +150,13 @@ a#L2{top: 200px; left: 50px; color: rgb(51, 51, 51);}
 	background-color: rgb(52, 93, 129);
 	width: 100%;
 	height: 100%;
+}
+
+section.quizCheck{
+	position: relative;
+}
+
+section.quizCheck input[type=range]{
+	bottom: 0px;
+	margin: 12px 0;
 }
