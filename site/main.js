@@ -5,7 +5,7 @@ function SliderChange(element) {
 }
 
 function AnswerCheck(numb){
-	var solutions = ["temp"];
+	var solutions = ["temp", "Kontanter", "Hemvägen", "En hemlighet"];
 	var guessValue = document.getElementById("keyText").value;
 	if(solutions[numb].toLowerCase() == guessValue.toLowerCase()){
 		alert("Du svarade rätt!");
