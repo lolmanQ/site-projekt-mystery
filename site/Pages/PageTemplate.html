@@ -27,10 +27,10 @@
 				</article>
 			</main>
 			<section class="quizCheck">
-				<form id="answerForm">
-					<input type="text" name="key" id="keyText">
-					<button></button>
-				</form>
+				<div class="submitGuess">
+					<input type="text" name="key" id="keyText" placeholder="Nyckel" autocomplete="off" maxlength="100">
+					<button onclick="AnswerCheck(0)">Gissa</button>
+				</div>
 				<input type="range" name="colorSlider" id="backSlider" oninput="SliderChange(this)" value="51" max="150">
 			</section>
 		</div>

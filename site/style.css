@@ -154,9 +154,35 @@ a#L4{bottom: 170px; left: 90px;}
 
 section.quizCheck{
 	position: relative;
+	display: flex;
+	justify-content: center;
 }
 
 section.quizCheck input[type=range]{
 	bottom: 0px;
 	margin: 12px 0;
+}
+
+/* submit guess styling */
+.submitGuess{
+	position: absolute;
+	top: 10px;
+}
+
+.submitGuess input, .submitGuess button{
+	border-radius: 5px;
+	background-color: #213241;
+	border-color: #1f1f1f;
+	color: white;
+}
+
+.submitGuess input[type=text]{
+	height: 40px;
+	width: 300px;
+	font-size: large;
+}
+
+.submitGuess button{
+	height: 40px;
+	width: 80px;
 }

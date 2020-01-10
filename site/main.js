@@ -4,3 +4,10 @@ function SliderChange(element) {
 	body.style.backgroundColor = "rgb(" + elementValue + "," + elementValue + "," + elementValue +")";
 }
 
+function AnswerCheck(numb){
+	var solutions = ["temp"];
+	var guessValue = document.getElementById("keyText").value;
+	if(solutions[numb] == guessValue){
+		alert("Du svarade rätt!");
+	}
+}
