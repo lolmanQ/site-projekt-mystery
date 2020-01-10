@@ -7,7 +7,7 @@ function SliderChange(element) {
 function AnswerCheck(numb){
 	var solutions = ["temp"];
 	var guessValue = document.getElementById("keyText").value;
-	if(solutions[numb] == guessValue){
+	if(solutions[numb].toLowerCase() == guessValue.toLowerCase()){
 		alert("Du svarade rätt!");
 	}
 }

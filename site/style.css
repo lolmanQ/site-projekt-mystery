@@ -3,6 +3,10 @@ main{grid-area: main;}
 #aside2{grid-area: aside2;}
 */
 
+article h1, article p{
+	margin:  0;
+}
+
 .quiz main{grid-area: main;}
 .quiz header{grid-area: header;}
 .quiz section.quizCheck{grid-area: input;}
