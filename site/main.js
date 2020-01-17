@@ -5,9 +5,9 @@ function SliderChange(element) {
 }
 
 function AnswerCheck(numb){
-	var solutions = ["temp", "Kontanter", "Hemvägen", "En hemlighet", "", "", "", "En munk"];
+	var solutions = ["temp", "Kontanter", "Hemvägen", "En hemlighet", "Jordgubbe", "Dragkamp", "Nattvakten];
 	var guessValue = document.getElementById("keyText").value;
-	if(solutions[numb].toLowerCase() == guessValue.toLowerCase()){
+	if(solutions[numb] == guessValue){
 		alert("Du svarade rätt!");
 	}
 }
