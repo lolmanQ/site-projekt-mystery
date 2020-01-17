@@ -5,7 +5,7 @@ function SliderChange(element) {
 }
 
 function AnswerCheck(numb){
-	var solutions = ["temp", "Kontanter", "Hemvägen", "En hemlighet", "Jordgubbe", "Dragkamp", "Nattvakten];
+	var solutions = ["temp", "Kontanter", "Hemvägen", "En hemlighet", "Jordgubbe", "Dragkamp", "Nattvakten", "En munk"];
 	var guessValue = document.getElementById("keyText").value;
 	if(solutions[numb] == guessValue){
 		alert("Du svarade rätt!");
