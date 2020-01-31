@@ -35,7 +35,7 @@ body.page1 .grid-container {
 }
 
 body.quiz .grid-container {
-      grid-template-areas: '... ... ...'  '... header ...' '... main ...' '... input ...';
+      grid-template-areas: '... ... ...'  '... header ...' '... main ...' '... input ...';
   -ms-grid-columns: 1fr 60% 1fr;
       grid-template-columns: 1fr 60% 1fr;
   -ms-grid-rows: 100px 150px 35vw 100px;
@@ -312,7 +312,7 @@ body.scorePage {
   margin: 10px;
 }
 
-.scorePage section > article p.username {
+.scorePage section > article h3.username {
   margin: 10px;
   text-align: center;
 }
